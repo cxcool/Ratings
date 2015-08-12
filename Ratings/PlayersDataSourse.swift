@@ -23,3 +23,5 @@ class Player: NSObject {
 }
 
 let playersData = [ Player(name: "Jacob", game: "wow", ratings: 5), Player(name: "Tom", game: "cs", ratings: 3),Player(name: "Cara", game: "card", ratings: 1) ]
+
+
