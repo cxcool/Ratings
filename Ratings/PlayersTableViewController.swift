@@ -9,8 +9,22 @@
 import UIKit
 
 class PlayersTableViewController: UITableViewController {
-    var players: [Player] = playersData
     
+    @IBAction func welcomeToMe(segue: UIStoryboardSegue) {
+        print("welcome")
+    }
+    @IBAction func comeWithDone(segue: UIStoryboardSegue) {
+        print("done data")
+    }
+    
+    var players: [Player] = playersData {
+        didSet {
+            tableView.reloadData()
+        }
+    }
+    override func viewWillAppear(animated: Bool) {
+        players = playersData
+    }
     //替换tableviwe数据源的方法
     // MARK: - Table view data source
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {

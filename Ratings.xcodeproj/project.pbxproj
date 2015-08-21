@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E8AE5781B844DD60086AFC3 /* PlayersDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AE5771B844DD60086AFC3 /* PlayersDetailTableViewController.swift */; };
 		7EA7B3611B731ED100409697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7B3601B731ED100409697 /* AppDelegate.swift */; };
 		7EA7B3631B731ED100409697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7B3621B731ED100409697 /* ViewController.swift */; };
 		7EA7B3661B731ED100409697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7B3641B731ED100409697 /* Main.storyboard */; };
@@ -15,9 +16,11 @@
 		7EA7B3731B73529900409697 /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7B3721B73529900409697 /* PlayersTableViewController.swift */; };
 		7EA7B3751B73543A00409697 /* PlayersDataSourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7B3741B73543A00409697 /* PlayersDataSourse.swift */; };
 		7EA7B37B1B736D1400409697 /* PlayerCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7B37A1B736D1400409697 /* PlayerCellTableViewCell.swift */; };
+		7EDA87E81B86F706002BB32F /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA87E71B86F706002BB32F /* TimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E8AE5771B844DD60086AFC3 /* PlayersDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersDetailTableViewController.swift; sourceTree = "<group>"; };
 		7EA7B35D1B731ED100409697 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA7B3601B731ED100409697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EA7B3621B731ED100409697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		7EA7B3721B73529900409697 /* PlayersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
 		7EA7B3741B73543A00409697 /* PlayersDataSourse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersDataSourse.swift; sourceTree = "<group>"; };
 		7EA7B37A1B736D1400409697 /* PlayerCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCellTableViewCell.swift; sourceTree = "<group>"; };
+		7EDA87E71B86F706002BB32F /* TimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				7EA7B3671B731ED100409697 /* Assets.xcassets */,
 				7EA7B3691B731ED100409697 /* LaunchScreen.storyboard */,
 				7EA7B36C1B731ED100409697 /* Info.plist */,
+				7E8AE5771B844DD60086AFC3 /* PlayersDetailTableViewController.swift */,
+				7EDA87E71B86F706002BB32F /* TimeViewController.swift */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -147,7 +153,9 @@
 				7EA7B3751B73543A00409697 /* PlayersDataSourse.swift in Sources */,
 				7EA7B3611B731ED100409697 /* AppDelegate.swift in Sources */,
 				7EA7B3731B73529900409697 /* PlayersTableViewController.swift in Sources */,
+				7EDA87E81B86F706002BB32F /* TimeViewController.swift in Sources */,
 				7EA7B37B1B736D1400409697 /* PlayerCellTableViewCell.swift in Sources */,
+				7E8AE5781B844DD60086AFC3 /* PlayersDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +303,7 @@
 				7EA7B3711B731ED100409697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
